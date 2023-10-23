@@ -2,6 +2,8 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # New Additions
+*.DS_Store
+*.lck
 *-backups
 *auto_saved_files*
 replicate_layout.log
