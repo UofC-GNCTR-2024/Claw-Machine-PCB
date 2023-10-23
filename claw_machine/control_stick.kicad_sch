@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 3e48cf7e-62be-4348-a083-b79405d29546)
+  (uuid ce5895c6-1b18-429e-84ed-c8489e8c842d)
 
   (paper "A4")
 
@@ -297,206 +297,104 @@
     )
   )
 
-  (junction (at 109.22 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid 8cd95786-db71-4bdb-b605-182f5602f407)
+  (junction (at 105.41 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 0e67574e-024e-4366-84a5-aa288ea33307)
   )
-  (junction (at 95.25 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 8ed5c329-46a8-437a-9da0-6ddb354f9912)
+  (junction (at 96.52 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 193ad5a9-77e2-490b-ba60-90247d9e5693)
   )
-  (junction (at 86.36 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 9431075b-a805-4f7c-9053-6d28e67eb310)
-  )
-
-  (wire (pts (xy 109.22 81.28) (xy 95.25 81.28))
-    (stroke (width 0) (type default))
-    (uuid 38d112a9-192e-4f9f-bcdd-b777f8a15929)
-  )
-  (wire (pts (xy 86.36 81.28) (xy 95.25 81.28))
-    (stroke (width 0) (type default))
-    (uuid 78dd7910-fcf3-49f6-a127-22218222211b)
-  )
-  (wire (pts (xy 109.22 81.28) (xy 109.22 85.09))
-    (stroke (width 0) (type default))
-    (uuid 8725e858-1e38-4fa6-991f-2f4bd79f8d7a)
-  )
-  (wire (pts (xy 82.55 81.28) (xy 86.36 81.28))
-    (stroke (width 0) (type default))
-    (uuid 9fc246fb-75c5-4be7-b0da-1c28e041aa9b)
-  )
-  (wire (pts (xy 109.22 91.44) (xy 95.25 91.44))
-    (stroke (width 0) (type default))
-    (uuid ad42a663-b1ce-42a7-926c-d82065900e63)
-  )
-  (wire (pts (xy 86.36 73.66) (xy 132.08 73.66))
-    (stroke (width 0) (type default))
-    (uuid d12120e9-4728-4390-ad5b-e039bfa4b373)
-  )
-  (wire (pts (xy 109.22 91.44) (xy 132.08 91.44))
-    (stroke (width 0) (type default))
-    (uuid f9acceb1-d79a-43f8-a982-60491802ecf6)
-  )
-  (wire (pts (xy 109.22 87.63) (xy 109.22 91.44))
-    (stroke (width 0) (type default))
-    (uuid fecc0406-d7a2-4156-a1b5-8189db73fa74)
+  (junction (at 119.38 60.96) (diameter 0) (color 0 0 0 0)
+    (uuid 6349e5db-2ae8-494b-b1d5-74735b52da69)
   )
 
-  (hierarchical_label "control_stick_input" (shape input) (at 82.55 81.28 180) (fields_autoplaced)
+  (wire (pts (xy 119.38 60.96) (xy 142.24 60.96))
+    (stroke (width 0) (type default))
+    (uuid 0a363dd5-8d92-46b0-a3fd-28ca859502fc)
+  )
+  (wire (pts (xy 96.52 43.18) (xy 142.24 43.18))
+    (stroke (width 0) (type default))
+    (uuid 37c6e98a-feae-44e9-9de0-86f8a7f51f5b)
+  )
+  (wire (pts (xy 119.38 50.8) (xy 105.41 50.8))
+    (stroke (width 0) (type default))
+    (uuid 3dc8ba4e-1b2f-4ac7-9e5e-cd35c5a533bd)
+  )
+  (wire (pts (xy 119.38 60.96) (xy 105.41 60.96))
+    (stroke (width 0) (type default))
+    (uuid 63f57008-3a6e-4ab7-9eff-188188fb5be6)
+  )
+  (wire (pts (xy 92.71 50.8) (xy 96.52 50.8))
+    (stroke (width 0) (type default))
+    (uuid 6cf887ba-3049-47e6-b19a-5cdffa7957af)
+  )
+  (wire (pts (xy 119.38 57.15) (xy 119.38 60.96))
+    (stroke (width 0) (type default))
+    (uuid 9335b7ff-21ff-4e51-a851-8009444bbd34)
+  )
+  (wire (pts (xy 96.52 50.8) (xy 105.41 50.8))
+    (stroke (width 0) (type default))
+    (uuid a9e9a9d1-2ed1-4bdb-8600-c118abda76d2)
+  )
+  (wire (pts (xy 119.38 50.8) (xy 119.38 54.61))
+    (stroke (width 0) (type default))
+    (uuid be42a44e-d0bf-480f-844f-11a72a5c2224)
+  )
+
+  (hierarchical_label "control_stick_input" (shape input) (at 92.71 50.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0c31d54d-6dc7-43e8-8d4a-b035b7ec80ff)
+    (uuid 9c2b002c-2d5f-45d9-9fcd-2b68a5c7cec9)
   )
 
-  (symbol (lib_id "power:+5V") (at 132.08 73.66 270) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 124.46 57.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1738d70d-3587-43f1-b0c6-53fdb3aa87f9)
-    (property "Reference" "#PWR010" (at 128.27 73.66 0)
+    (uuid 42e62c56-c625-49e6-af4d-93bf6a1e4649)
+    (property "Reference" "J5" (at 125.73 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 125.73 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 135.89 73.66 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 132.08 73.66 0)
+    (property "Datasheet" "~" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.08 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ee6c443d-b2e7-4a8a-a244-483017d8c732))
+    (pin "1" (uuid dc6b9f4c-0a1f-41a5-b3d3-6c5d75cff718))
+    (pin "2" (uuid 7442e5de-0f5c-4c96-bc4d-8ff2126e2aa6))
     (instances
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "#PWR09") (unit 1)
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/6266bff4-6cb7-41e0-8a43-2b4615cf257d"
+          (reference "J5") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "#PWR011") (unit 1)
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/103b1df7-87c6-40a0-82ce-7a9fd211bbc5"
+          (reference "J4") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "#PWR015") (unit 1)
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/ce247a30-a3ca-4c6e-a24f-2741771dfd3c"
+          (reference "J3") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "#PWR013") (unit 1)
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/9927c4c3-64c8-4df0-929e-f3bf1e9ace6f"
+          (reference "J2") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "#PWR017") (unit 1)
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a"
+          (reference "J1") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 86.36 77.47 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 246a7aa0-2853-40cf-8cbd-fbc8ecc3db80)
-    (property "Reference" "R19" (at 88.9 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "R_US" (at 88.9 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 85.344 77.216 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.36 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c04cfdb7-ba2d-41ab-b307-28e90e3df256))
-    (pin "2" (uuid 5b72f627-0546-42f8-a9b5-6b3230dad4f5))
-    (instances
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "R19") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "R21") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "R22") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "R24") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "R23") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 95.25 86.36 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 892c5175-3f0b-486b-983d-a0386e5121b8)
-    (property "Reference" "SW25" (at 99.06 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SW_Push" (at 99.06 87.63 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 100.33 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aad6fba0-dcbd-404d-9429-ea7405eeb46c))
-    (pin "2" (uuid 6a76be67-13a1-4b9f-a2cf-2d0c8283b6b9))
-    (instances
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "SW25") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "SW28") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "SW29") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "SW31") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "SW30") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "SW32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 114.3 87.63 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 93492e2f-8425-49f4-8c6b-04b28d970941)
-    (property "Reference" "J32" (at 115.57 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Conn_01x02_Pin" (at 115.57 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 114.3 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 114.3 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e536335c-b341-4a76-87df-43c8e435b0e5))
-    (pin "2" (uuid 09073343-f02c-4cba-96bd-7c2df6c2f820))
-    (instances
       (project "ClawMachine"
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
           (reference "J32") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "J38") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "J39") (unit 1)
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
+          (reference "J40") (unit 1)
         )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
           (reference "J41") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "J40") (unit 1)
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
+          (reference "J39") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
+          (reference "J38") (unit 1)
         )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
           (reference "J42") (unit 1)
@@ -505,38 +403,225 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 132.08 91.44 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 142.24 43.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cd9fef4e-ac01-4b1d-ad4d-0a345b3e965c)
-    (property "Reference" "#PWR09" (at 138.43 91.44 0)
+    (uuid 44fa93a2-c29b-42ba-bd6c-f68f18b4bf59)
+    (property "Reference" "#PWR03" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 135.89 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "+5V" (at 146.05 43.18 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 132.08 91.44 0)
+    (property "Footprint" "" (at 142.24 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.08 91.44 0)
+    (property "Datasheet" "" (at 142.24 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1727591c-e10e-48e9-a947-7558a9a95364))
+    (pin "1" (uuid ce107f30-1b7f-4607-8199-7e7e4ef225f3))
     (instances
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "#PWR010") (unit 1)
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a"
+          (reference "#PWR03") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "#PWR012") (unit 1)
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/103b1df7-87c6-40a0-82ce-7a9fd211bbc5"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/ce247a30-a3ca-4c6e-a24f-2741771dfd3c"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/9927c4c3-64c8-4df0-929e-f3bf1e9ace6f"
+          (reference "#PWR05") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/6266bff4-6cb7-41e0-8a43-2b4615cf257d"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ClawMachine"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
+          (reference "#PWR013") (unit 1)
         )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 96.52 46.99 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6a09a2b7-5e51-4fa2-adcf-3494887523b6)
+    (property "Reference" "R5" (at 99.06 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "R_US" (at 99.06 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 95.504 46.736 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29e50f78-ee3f-4429-b8ad-89cf63205dbf))
+    (pin "2" (uuid 412765f4-a52d-42e6-9135-7d062f4989fc))
+    (instances
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/6266bff4-6cb7-41e0-8a43-2b4615cf257d"
+          (reference "R5") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/103b1df7-87c6-40a0-82ce-7a9fd211bbc5"
+          (reference "R4") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/ce247a30-a3ca-4c6e-a24f-2741771dfd3c"
+          (reference "R3") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/9927c4c3-64c8-4df0-929e-f3bf1e9ace6f"
+          (reference "R2") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "ClawMachine"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
+          (reference "R19") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
+          (reference "R23") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
+          (reference "R24") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
+          (reference "R22") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
+          (reference "R21") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
+          (reference "R25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 142.24 60.96 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a32b0d61-f70b-45ce-953e-b1c73b7e7e32)
+    (property "Reference" "#PWR04" (at 148.59 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 146.05 60.96 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 142.24 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 142.24 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3682b6e0-6e1b-40fd-908e-711c64c5789e))
+    (instances
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/103b1df7-87c6-40a0-82ce-7a9fd211bbc5"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/ce247a30-a3ca-4c6e-a24f-2741771dfd3c"
+          (reference "#PWR08") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/9927c4c3-64c8-4df0-929e-f3bf1e9ace6f"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/6266bff4-6cb7-41e0-8a43-2b4615cf257d"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ClawMachine"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
+          (reference "#PWR018") (unit 1)
         )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
           (reference "#PWR014") (unit 1)
         )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 105.41 55.88 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid af2a74ac-e2eb-4e48-a16b-6e6ff47dafd7)
+    (property "Reference" "SW5" (at 109.22 54.61 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SW_Push" (at 109.22 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 110.49 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 110.49 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c2289f25-f3b9-4b73-96eb-ae70865ff1f3))
+    (pin "2" (uuid 58b1074a-ba51-42d5-8fa8-a83f1b11c432))
+    (instances
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/6266bff4-6cb7-41e0-8a43-2b4615cf257d"
+          (reference "SW5") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/103b1df7-87c6-40a0-82ce-7a9fd211bbc5"
+          (reference "SW4") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/ce247a30-a3ca-4c6e-a24f-2741771dfd3c"
+          (reference "SW3") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/9927c4c3-64c8-4df0-929e-f3bf1e9ace6f"
+          (reference "SW2") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7/4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "ClawMachine"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
+          (reference "SW25") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
+          (reference "SW30") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
+          (reference "SW31") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
+          (reference "SW29") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
+          (reference "SW28") (unit 1)
+        )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "#PWR018") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
