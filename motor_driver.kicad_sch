@@ -450,8 +450,11 @@
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
           (reference "J4") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
-          (reference "J35") (unit 1)
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
+          (reference "J4") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -479,8 +482,11 @@
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
           (reference "J3") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
-          (reference "J34") (unit 1)
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
+          (reference "J3") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -504,8 +510,11 @@
     (pin "1" (uuid bfbeb202-4269-4f08-83b6-16a16d16866f))
     (instances
       (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
           (reference "#PWR06") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -546,8 +555,11 @@
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
           (reference "U1") (unit 1)
         )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
-          (reference "U3") (unit 1)
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
+          (reference "U1") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -571,8 +583,11 @@
     (pin "1" (uuid 8c8fe62d-fa5f-4c8f-a500-0ae73527712a))
     (instances
       (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
           (reference "#PWR05") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -596,8 +611,11 @@
     (pin "1" (uuid 4999cfce-93fa-4e2a-a386-dc58bd0e7e9a))
     (instances
       (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/d5a2a116-287e-474a-8fb2-a3cf931eabb2"
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/13b13e60-0a94-4cf2-85d7-ff327aa93a4d"
           (reference "#PWR04") (unit 1)
+        )
+        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/a0269d26-c4d5-407d-802e-a17a1b6659b5/b13a9902-a3e5-4c45-8349-156af275c480"
+          (reference "#PWR043") (unit 1)
         )
       )
     )

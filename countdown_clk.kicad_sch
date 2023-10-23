@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 88005e8b-1249-45bb-b12d-9e9cba55a455)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "clk_sda" (shape input) (at 67.31 78.74 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 236214d1-0b41-4a82-a224-ecb22ed021d8)
+  )
+  (hierarchical_label "clk_scl" (shape input) (at 67.31 81.28 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5091bfbe-e568-440d-924c-8f0b1b2176a8)
+  )
+)
