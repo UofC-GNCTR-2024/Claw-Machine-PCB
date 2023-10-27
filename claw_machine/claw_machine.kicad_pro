@@ -332,120 +332,72 @@
       "control_stick_all"
     ],
     [
-      "c9c700bc-eabe-4388-8127-7a39929abe7a",
-      "dc_driver_all"
+      "cd5db213-e828-411c-b6c8-d3fd4ab4e796",
+      "stepper_driver_y"
     ],
     [
-      "9c529657-308d-4bac-8c44-65a66de4ab4d",
-      "general_pwr_all"
+      "42624e1d-4312-47c8-a502-41ca2b5945dd",
+      "stepper_driver_x2"
     ],
     [
-      "826f06aa-d842-4ac9-a029-11fe41cb9ba3",
-      "countdown_clk"
+      "a4a5e052-4f16-4cee-8c43-0bdde03baed0",
+      "stepper_driver_x1"
     ],
     [
-      "c96c14c0-5dde-47b1-8270-768dc6af2295",
-      "stepper_driver_all"
+      "a5b51e80-e745-4cc8-8f69-0457f2fb6018",
+      "dc_driver_claw"
     ],
     [
-      "20fa4ce0-2689-49a0-98c4-9b22090f3f71",
-      "limit_switches_all"
+      "bb6e873f-fe99-4b0f-a00a-430ca8ec6fa2",
+      "dc_driver_z"
     ],
     [
-      "4727e4fa-aeaa-4c6c-bae7-9c0e7ae3930a",
-      "control_stick_single4"
+      "9c0456e1-be0f-4687-848b-2e8f026580ef",
+      "switch_x1"
     ],
     [
-      "9927c4c3-64c8-4df0-929e-f3bf1e9ace6f",
-      "control_stick_single1"
+      "faf0a1bb-bf1c-4d47-bb23-2823bfc2f254",
+      "switch_x2"
     ],
     [
-      "ce247a30-a3ca-4c6e-a24f-2741771dfd3c",
-      "control_stick_single"
+      "b1544965-a031-4321-9ea3-4ec80e6ff7b9",
+      "switch_y"
     ],
     [
-      "103b1df7-87c6-40a0-82ce-7a9fd211bbc5",
-      "control_stick_single2"
+      "5cef106b-2aca-4cae-bdf2-e4f8176850ad",
+      "switch_input_btn_1"
     ],
     [
-      "6266bff4-6cb7-41e0-8a43-2b4615cf257d",
-      "control_stick_single3"
+      "fe5502bf-d68b-4deb-962c-eedd145df63d",
+      "switch_input_btn_2"
     ],
     [
-      "6d95c322-1cab-49aa-bc01-2ec8856cede5",
-      "limit_switches_single1"
+      "e3607caa-def2-4de9-9283-b41712be4e57",
+      "switch_input_btn_3"
     ],
     [
-      "40740802-8d08-43b7-a0e7-4e86cd4bb8b0",
-      "limit_switches_single8"
+      "3a275a35-ac75-436b-ba62-b5574177f89b",
+      "switch_aux_sw_1"
     ],
     [
-      "c108e1d7-210b-4d92-b007-d208e092bbd9",
-      "limit_switches_single2"
+      "711d7158-7287-4132-8369-831ffc2ac021",
+      "switch_aux_sw_2"
     ],
     [
-      "ae953e46-96fb-441e-95cb-f399776589d5",
-      "limit_switches_single"
+      "a12f7447-be9c-421b-abfe-75e0d777bb21",
+      "general_pwr_single0"
     ],
     [
-      "9ce87aef-8e4a-4c88-ade5-164a506624fb",
-      "limit_switches_single5"
+      "0c27a6d6-981c-4d69-bb20-bad4b4d62213",
+      "general_pwr_single1"
     ],
     [
-      "5413b100-5794-486a-bb1e-8085d6f94e1d",
-      "limit_switches_single7"
-    ],
-    [
-      "184da9b7-f35f-4b14-9695-205c90e67f9f",
-      "limit_switches_single3"
-    ],
-    [
-      "4c0cc8e3-64b5-4652-9f3a-f1acd1f974a3",
-      "limit_switches_single4"
-    ],
-    [
-      "288997d2-20e0-4a57-8d50-3878faff5b0c",
-      "limit_switches_single9"
-    ],
-    [
-      "3803ba7e-0fc0-4989-8c90-71fb364284c2",
-      "limit_switches_single6"
-    ],
-    [
-      "ec96d2a1-a51b-4aa3-82a1-4d63be89f35d",
-      "dc_driver_single1"
-    ],
-    [
-      "aab30a86-b470-460e-bdfd-09f1fd16b315",
-      "dc_driver_single"
-    ],
-    [
-      "c75c2bf7-cada-496e-8fea-324ca7e6a3ba",
-      "stepper_driver_single"
-    ],
-    [
-      "388a7d23-a831-4bac-9241-d50735a5bc8c",
-      "stepper_driver_single1"
-    ],
-    [
-      "3a4479fb-e07a-4067-832e-ce5ad0933514",
-      "stepper_driver_single2"
-    ],
-    [
-      "a87b0a36-a788-40ab-a448-1186cb3380e6",
-      "general_pwr_single"
-    ],
-    [
-      "333357f9-efc4-4d9c-93c1-46d88c0f0499",
-      "general_pwr_single3"
-    ],
-    [
-      "e3394c12-5346-41d0-a085-9f0201df5e75",
+      "7cf58d89-a42c-4757-ae7e-fba95300845f",
       "general_pwr_single2"
     ],
     [
-      "4d5b56c6-2f3b-40f9-b2f8-aca12ceee6ec",
-      "general_pwr_single1"
+      "1dea13de-c8c5-4610-a980-471ad90e4d59",
+      "general_pwr_single3"
     ]
   ],
   "text_variables": {}
