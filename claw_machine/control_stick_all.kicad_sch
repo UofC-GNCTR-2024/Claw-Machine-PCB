@@ -125,14 +125,14 @@
         )
       )
     )
-    (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.54 0 90)
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "R_US" (at -2.54 0 90)
+      (property "Value" "R" (at 0 0 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 1.016 -0.254 90)
+      (property "Footprint" "" (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
@@ -141,64 +141,19 @@
       (property "ki_keywords" "R res resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Resistor, US symbol" (at 0 0 0)
+      (property "ki_description" "Resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "R_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "R_US_0_1"
-        (polyline
-          (pts
-            (xy 0 -2.286)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.286)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy 1.016 -1.143)
-            (xy 0 -1.524)
-            (xy -1.016 -1.905)
-            (xy 0 -2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 1.016 0.381)
-            (xy 0 0)
-            (xy -1.016 -0.381)
-            (xy 0 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.286)
-            (xy 1.016 1.905)
-            (xy 0 1.524)
-            (xy -1.016 1.143)
-            (xy 0 0.762)
-          )
-          (stroke (width 0) (type default))
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
           (fill (type none))
         )
       )
-      (symbol "R_US_1_1"
+      (symbol "R_1_1"
         (pin passive line (at 0 3.81 270) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -655,6 +610,35 @@
     (uuid ea5f6c32-29ad-43a7-95eb-b0480183f590)
   )
 
+  (symbol (lib_id "Device:R") (at 116.84 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0f4c10f8-eaf8-4b2c-b36e-fc1b0ccc6874)
+    (property "Reference" "R105" (at 119.38 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 119.38 123.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 115.062 121.92 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.84 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 551e329c-5a6c-41a8-84d5-081df6dc5532))
+    (pin "2" (uuid 951714d9-bc40-4ffc-8bd1-df4de534ad21))
+    (instances
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1"
+          (reference "R105") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
+          (reference "R203") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 116.84 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18052edc-10f7-4ff0-9da3-705767b3d138)
@@ -738,6 +722,35 @@
         )
         (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 151.13 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c73c4d9-940c-48f4-b759-8e40cc74ad88)
+    (property "Reference" "R105" (at 153.67 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 153.67 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 149.352 101.6 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.13 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f6426b24-f170-4052-8266-726e01b07bd5))
+    (pin "2" (uuid ff3dbaf4-6e96-4333-a42f-bef90cca1a3f))
+    (instances
+      (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1"
+          (reference "R105") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -872,52 +885,6 @@
         )
         (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
           (reference "C201") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 151.13 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 41b3a2fd-0f6a-47c3-ae26-095bf04c1008)
-    (property "Reference" "R204" (at 153.67 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 153.67 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 150.114 101.346 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 151.13 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82d17ced-44c2-466a-9467-d8c8d0a49e29))
-    (pin "2" (uuid 5f4b743c-3a6e-4072-b5ea-aaf945831686))
-    (instances
-      (project "claw_machine"
-        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
-          (reference "R204") (unit 1)
-        )
-      )
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "R19") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "R23") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "R24") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "R22") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "R21") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "R25") (unit 1)
         )
       )
     )
@@ -1095,52 +1062,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 116.84 121.92 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61bdbe5a-db3f-4f85-b2d8-8bef29bd4684)
-    (property "Reference" "R203" (at 119.38 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 119.38 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 115.824 121.666 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 116.84 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f53a9051-ba9a-4bf7-b682-b975e0319bef))
-    (pin "2" (uuid d4acc4cd-e070-4390-96cf-b7f68c5a850c))
-    (instances
-      (project "claw_machine"
-        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
-          (reference "R203") (unit 1)
-        )
-      )
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "R19") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "R23") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "R24") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "R22") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "R21") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 113.03 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65a973e9-256e-47bf-94ab-78dcf9e312ba)
@@ -1312,47 +1233,30 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 116.84 78.74 180) (unit 1)
+  (symbol (lib_id "Device:R") (at 81.28 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7b84bf51-0c75-4382-97e7-86fd9d519556)
-    (property "Reference" "R202" (at 119.38 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 921ae63a-a00b-4702-889b-a53c1243d6c8)
+    (property "Reference" "R105" (at 83.82 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 119.38 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "10k" (at 83.82 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 115.824 78.486 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 79.502 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 116.84 78.74 0)
+    (property "Datasheet" "~" (at 81.28 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ae3795d-ec66-4b2c-a454-d827148af7ab))
-    (pin "2" (uuid 01f70313-09e6-45ac-b693-e11507d997eb))
+    (pin "1" (uuid 1639e9fb-dcb4-4c94-948d-6c73cef0562f))
+    (pin "2" (uuid c1d58218-fa98-4f3c-8526-79275cd0fda4))
     (instances
       (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1"
+          (reference "R105") (unit 1)
+        )
         (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
-          (reference "R202") (unit 1)
-        )
-      )
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "R19") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "R23") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "R24") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "R22") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "R21") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "R25") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -1408,47 +1312,30 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 81.28 101.6 180) (unit 1)
+  (symbol (lib_id "Device:R") (at 116.84 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a3cfc0c7-0157-460f-89e6-a8d3f3ba1df1)
-    (property "Reference" "R201" (at 83.82 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b34ad2c0-11bd-4ad3-bf6d-c7b93f7deb32)
+    (property "Reference" "R105" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 83.82 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "10k" (at 119.38 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 80.264 101.346 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 115.062 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 81.28 101.6 0)
+    (property "Datasheet" "~" (at 116.84 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abb87764-085e-4d57-a0c6-c3f9324e958b))
-    (pin "2" (uuid a65a2df0-6b23-48d7-8b38-a780289733d3))
+    (pin "1" (uuid 9589bf36-e1b8-41ff-a6d4-2f64ecc17c04))
+    (pin "2" (uuid d6aae3de-304f-4c50-9d47-2c0380699e0b))
     (instances
       (project "claw_machine"
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1"
+          (reference "R105") (unit 1)
+        )
         (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/6818ac2a-ce5d-423a-9389-7753b58c3ff7"
-          (reference "R201") (unit 1)
-        )
-      )
-      (project "ClawMachine"
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5"
-          (reference "R19") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/647f2669-19ce-476d-b63f-0ff9b7f86926"
-          (reference "R23") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/2b5a80b9-bc44-4eb9-a82c-2f335e668733"
-          (reference "R24") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/827f60d8-73fb-49af-ad66-d3e0d4953281"
-          (reference "R22") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/3454ba60-c9bc-4dd4-b51a-e52c59c8870c"
-          (reference "R21") (unit 1)
-        )
-        (path "/aafe1d38-cfbd-4a85-a256-fbe14cd8b9f5/023b6910-a968-479e-88ee-414e77016c63/d1a37237-ebf6-4b13-b22e-f466e93cd233"
-          (reference "R25") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
