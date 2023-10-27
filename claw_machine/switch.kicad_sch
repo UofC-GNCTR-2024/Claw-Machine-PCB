@@ -672,7 +672,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 109.22 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af151f82-d9b6-40a1-be28-ffafefb892dc)
-    (property "Reference" "J1502" (at 111.76 53.34 0)
+    (property "Reference" "J902" (at 111.76 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 111.76 55.88 0)
@@ -688,12 +688,6 @@
     (pin "2" (uuid 2cfefc41-5d9f-411e-af38-617ca90ce75d))
     (instances
       (project "claw_machine"
-        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/711d7158-7287-4132-8369-831ffc2ac021"
-          (reference "J1502") (unit 1)
-        )
-        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/9c0456e1-be0f-4687-848b-2e8f026580ef"
-          (reference "J802") (unit 1)
-        )
         (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/faf0a1bb-bf1c-4d47-bb23-2823bfc2f254"
           (reference "J902") (unit 1)
         )
@@ -711,6 +705,12 @@
         )
         (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/3a275a35-ac75-436b-ba62-b5574177f89b"
           (reference "J1402") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/711d7158-7287-4132-8369-831ffc2ac021"
+          (reference "J1502") (unit 1)
+        )
+        (path "/2e48e9a4-e55f-4bd7-8086-6a8b9c5eabc1/9c0456e1-be0f-4687-848b-2e8f026580ef"
+          (reference "J802") (unit 1)
         )
       )
       (project "ClawMachine"
