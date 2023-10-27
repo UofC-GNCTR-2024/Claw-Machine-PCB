@@ -1,0 +1,31 @@
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 172:Plugin executed on: 'linux'
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 173:Plugin executed with python version: '3.11.5 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 174:KiCad build version: 7.0.8
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 175:Plugin version: 2.0.8
+
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 176:Frame repr: <wx._core.Frame object at 0x7f8b221fd480>
+10-27 15:50:42 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 194:Anchor footprint reference is 'J802'
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 203:Save layout chosen
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 354:Working on /home/user/GitHub/Claw-Machine-PCB/claw_machine/claw_machine.kicad_pcb
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 359:Saving the current board temporary in order to leave current layout intact
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 365:Saving board as tempfile: /tmp/temp_board_file_for_save.kicad_pcb
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 370:Loaded temp boardfile: /tmp/temp_board_file_for_save.kicad_pcb
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 371:Get project schematics and layout data
+10-27 15:50:43 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 250:Saving the layout in '/home/user/Downloads/wit.pckl' for level 0
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 382:Saving layout for level: ['switch_x1']
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 383:Calculating hash of the layout schematics
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 387:Saving hash for files: ['switch.kicad_sch']
+10-27 15:50:54 root 398:Source footprints are: ['SW801', 'J802', 'R801', 'J801', 'C801']
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 409:Removing everything else from the layout
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 476:Removing text
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 455:Removing drawing
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 497:Removing zones
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 516:Removing tracks
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 518:Bounding box points: (148895000, 171665000, 114105000, 126905000)
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 539:Removing footprints
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 427:Saving layout in temporary file
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 431:Reading layout as text
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 438:Saving layout data
+10-27 15:50:54 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 452:Successfully saved the layout
