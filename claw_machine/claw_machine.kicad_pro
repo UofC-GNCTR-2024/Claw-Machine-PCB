@@ -128,7 +128,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -525,10 +525,6 @@
     [
       "cd5db213-e828-411c-b6c8-d3fd4ab4e796",
       "stepper_driver_y"
-    ],
-    [
-      "a5b51e80-e745-4cc8-8f69-0457f2fb6018",
-      "dc_driver_claw"
     ],
     [
       "bb6e873f-fe99-4b0f-a00a-430ca8ec6fa2",
