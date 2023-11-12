@@ -2,7 +2,11 @@
 
   (uuid 4d6100d4-6747-4c89-9f98-6ebe7603c3a8)
 
-  (paper "A5")
+  (paper "USLetter")
+
+  (title_block
+    (rev "1")
+  )
 
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
