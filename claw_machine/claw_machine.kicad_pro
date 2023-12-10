@@ -466,7 +466,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Claw-Machine-Mechanicals/pcb_enclosure/pcb_export.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
